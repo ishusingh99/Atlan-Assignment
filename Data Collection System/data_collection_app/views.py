@@ -20,7 +20,7 @@ def create_form(request):
         form = Form.objects.create(title=title, description=description)
         for question_text in questions:
             Question.objects.create(form=form, text=question_text)
-        return JsonResponse({'message':'Form Created'}, status=200)
+        return JsonResponse({'message':f'{title} Form created.'}, status=200)
 
     return JsonResponse({'message':'Error'}, status=404)
 
@@ -56,7 +56,7 @@ def get_response(request):
 
         sheet_url = new_sheet.url
 
-        return JsonResponse({'message':'Your responses have been recieved. You can access the Google Sheet for your responses in the link below', 'Link': sheet_url}, status=200)
+        return JsonResponse({'message':'Your responses have been recieved. You can access the Google Sheet for your responses in the link below.', 'Link': sheet_url}, status=200)
 
     return JsonResponse({'message':'Error'}, status=404)
 
@@ -68,7 +68,8 @@ def send_sms_notification(request):
         phone_number = data['phone_number']
 
         account_sid = "ACa3212790a66098cd63be597d521ff5d8"
-        auth_token = "e01ced4d5ecdce8a59346d377e1bbd1b"
+        auth_token = "e4e7e05b1cd9e77b708618bafb0a63ff"
+        from_phone_number = '+15803660855'
         client = Client(account_sid, auth_token)
         
         form = Form.objects.get(id = form_id)
@@ -80,8 +81,8 @@ def send_sms_notification(request):
         final_response = {"title": form.title, "description":form.description, "response": response_dict}
         message = client.messages \
                         .create(
-                            body=json.dumps(final_response),
-                            from_='+15803660855',
+                            body=json.dumps(f"Your response has been succesfully submitted, your details are: {final_response}"),
+                            from_= from_phone_number,
                             to = phone_number
                         )
 
