@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "atlan-data-collection-system",
+  "private_key_id": "4bbf16cdfd75f430bfcde6fdd2517427bd0a3264",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCIL00yXROB55a5\nkWssxyviKWay3B77QFN8MhQvVivpHxBsG0Tecd6+uApaw0mGXGUaf7I07sxlYPIb\nM2VwJW2t5ojtO/T/UyR9ND6urH0OgupcAiIgvtIypwZMrTd9sUer2pU4GzA7D4mG\nY/aHSQMDZoGQFldPFiD6UUpRIHH4qZZNuKxMMBxUrureeCvtxcZqzmtvz3cnCL3I\nrKMYArSNAQRUymb9VKm5j6icfSPI9a6JNDubOJl2i6D5kwJh67yQnAbqElypS8KU\nqztBYRd1v4upBvP6k0o5hwT4sddjowt3SC3C2Yt27mL84lGE+Cu08S1QukrWunaH\nUWjd9WDDAgMBAAECggEAOBtI0jWPmmcH7YcQYT/jgAdvlMPkjb4YRyQ4tbHqYF6Y\nfPmVG5JNY0Temzs22QDK9KpkiLNTiXbx+CvqIFSDRfCjPB4GF4UxFNZH9t4AndBo\n7qRAXD5RymWOzltU79dwgEiLTrTA36xMjA42HNGDSMzcFzllGiOzTX3dQOQ9oGTg\nNa52l9NWXw4niD5g3yzk5X5y9dDgYvGkBxYSms9lq28rojWQaQ1mDhesO/myDQOJ\nqyeyqWoydTxL1eC6TNU4XaIUE2kwQ+JqOo+ia4DtsO0MUSqy/I5fo+RHzwSyRoyg\nrL0hn9T9zsGc4U22/kSTd6xyN/TvX1RwMSThh8f3KQKBgQC9daJ+maAktGfOkhRs\ntU0J1sCi5lu/PnTGt7oe1IpRHm0QWF9HFezVgojH6KL5JjRg5LMcwqmep/x3I0d5\nTP3vRQDA4G/ftu4hJ27xYlbE1c7ysv98iGQPy9FUIJcxkS/DS2MSu5UkLtwG8AnF\nBbuFXxYKRBp3DdHqYZ3vil+kCQKBgQC4A7fMijJFap46i3NdxqViJ/uOVCPjfH2n\n5l7eAVaQZNZg4nr/++fuC/5pnuT6z2DFuyH91fAyjr4uOHWLouqAJIGTx5q52C+n\nlvulK5C8xPUTOt0Ay2enhJf3Cnk2JOj/66Hq6AeqNS0dUWKmlIulUFMRJRDQGUru\nFWlXuluJawKBgGx9KAeGwQVDqQ3I6Jk3WF4B811Uu8TPZt9D5fgxjOLWoW1yrVxv\nWacJkHmo5Wn2TpgNXeNiNO79ErzGHu9+/wo8YSoRWv6oKcQiaI0g2r7sEA06IsKU\n93d0JvIdl3ZyxP739EuNzuFhU+1FFtMTbUX6JQzL4ru51jJ4o4+/lPTBAoGBAJVM\nhvLQaYtCvxB3FmpOgt7J2+MVx2yKFBWG5w+u/EH5XqqK9wr8oqfUWV3uyo/oc/ba\nJvEhhFow0IMF0fEyhJrlg7CYMaR5j+ikqpXPbAaMst8gUjGT1wzmmrmYaNISTm1e\nDChgi9+Ad5Mi9ix7t3WwX0U40pRVASN8gdTo4d3zAoGBALJUh+cMQbesj4aXgC7m\ny2l3Ex+P+Q61yMfGtYiOX4Ww1rl4eTWIUJISEr6Hv3FZ6JciOnR+vc3mo4jkccDB\nLhf+jDPJ2m30GCTI6qSV18jeCS0YRSRjDhkxhQuT9yf1g0Dquqg7HRZvc0LQ73Ik\nuxMqGtLjdh2ucAYJkeLVY2U3\n-----END PRIVATE KEY-----\n",
+  "client_email": "atlan-data-collection-system@atlan-data-collection-system.iam.gserviceaccount.com",
+  "client_id": "110046640100827603839",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/atlan-data-collection-system%40atlan-data-collection-system.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
