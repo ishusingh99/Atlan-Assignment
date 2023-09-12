@@ -82,7 +82,7 @@ Description:
 Response:
 ```
 {
-    "message": "Software Developer Form created"
+    "message": "Software Developer Form created."
 }
 ```
 
@@ -109,7 +109,7 @@ Description:
 Response:
 ```
 {
-    "message": "Your responses have been recieved. You can access the Google Sheet for your responses in the link below",
+    "message": "Your responses have been recieved. You can access the Google Sheet for your responses in the link below.",
     "Link": "https://docs.google.com/spreadsheets/d/1yvsA_bK42OLe3Qm6blOS3kosrt_jRgZnOZ7mv_5HVrU"
 }
 ```
