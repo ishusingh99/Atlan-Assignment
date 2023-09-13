@@ -31,14 +31,10 @@ def get_response(request):
         data = json.loads(request.body)
         responses = data['responses']
         for idx in responses:
-            question = Question.objects.get(id = idx)  
-            print(question.form)    
+            question = Question.objects.get(id = idx)
             ques_ans[question.text] = responses[idx]
-        print(ques_ans)
         ques = list(ques_ans.keys())
         ans = list(ques_ans.values())
-        print(ques)
-        print(ans)
         dicti = json.dumps(ques_ans)
         response = Response.objects.create(form=question.form, data = dicti)
 
@@ -56,7 +52,7 @@ def get_response(request):
 
         sheet_url = new_sheet.url
 
-        return JsonResponse({'message':'Your responses have been recieved. You can access the Google Sheet for your responses in the link below.', 'Link': sheet_url}, status=200)
+        return JsonResponse({'message':'Your responses have been received. You can access the Google Sheet for your responses in the link below.', 'Link': sheet_url}, status=200)
 
     return JsonResponse({'message':'Error'}, status=404)
 
@@ -73,11 +69,8 @@ def send_sms_notification(request):
         client = Client(account_sid, auth_token)
         
         form = Form.objects.get(id = form_id)
-        print(form)
-        print(form.id)
         response = Response.objects.filter(form = form).values()
         response_dict = list(response)
-        print(response)
         final_response = {"title": form.title, "description":form.description, "response": response_dict}
         message = client.messages \
                         .create(
